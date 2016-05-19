@@ -28,3 +28,4 @@ There's an API available at `http://spa.tglrw.com:4000` for retrieving the data 
 - npm install browser-sync -g
 - npm install
 - bower install
+- grunt dev
