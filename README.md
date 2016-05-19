@@ -1,5 +1,5 @@
 # Widgets Single Page App Demo
-This is a simple multi-page HTML site. The goal of this project is to take this hardcoded HTML site, and make it hit an API for showing/listing user and widget information. 
+This is a simple multi-page HTML site. The goal of this project is to take this hardcoded HTML site, and make it hit an API for showing/listing user and widget information.
 
 
 ## Features
@@ -22,3 +22,9 @@ There's an API available at `http://spa.tglrw.com:4000` for retrieving the data 
 - POST `/widgets` for creating new widgets [http://spa.tglrw.com:4000/widgets](http://spa.tglrw.com:4000/widgets)
 - PUT `/widgets/:id` for updating existing widgets [http://spa.tglrw.com:4000/widgets/:id](http://spa.tglrw.com:4000/widgets/:id)
 
+# Install
+- npm install grunt-cli -g
+- npm install bower -g
+- npm install browser-sync -g
+- npm install
+- bower install

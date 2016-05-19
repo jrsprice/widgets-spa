@@ -1,0 +1,50 @@
+<!-- Name-->
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="widget-name">Name</label>
+    <div class="col-sm-4">
+        <input ng-model="widget.name" id="widget-name" name="widget-name" type="text" placeholder="foo-bar" class="input-medium form-control" required>
+    </div>
+</div>
+
+<!-- Price -->
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="widget-price">Price</label>
+    <div class="col-sm-2">
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input ng-model="widget.price" id="widget-price" name="widget-price" class="input-medium form-control" placeholder="0.00" type="text" required>
+        </div>
+    </div>
+</div>
+
+<!-- Color -->
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="widget-color">Color</label>
+    <div class="col-sm-2">
+        <select ng-model="widget.color" id="widget-color" name="widget-color" class="input-large form-control" required>
+            <option>red</option>
+            <option>purple</option>
+            <option>black</option>
+            <option>green</option>
+            <option>magenta</option>
+            <option>white</option>
+            <option>depends on the viewing angle</option>
+        </select>
+    </div>
+</div>
+
+<!-- Melts -->
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="widget-properties">Melts</label>
+    <div class="col-sm-2">
+        <input type="checkbox" ng-model="widget.melts" name="widget-properties" id="widget-properties-0" value="melts" required>
+    </div>
+</div>
+
+<!-- Inventory -->
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="widget-count">Inventory</label>
+    <div class="col-sm-2">
+        <input ng-model="widget.inventory" id="widget-count" name="widget-count" type="text" placeholder="#?" class="input-small form-control" required>
+    </div>
+</div>

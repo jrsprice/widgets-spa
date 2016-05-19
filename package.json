@@ -1,0 +1,27 @@
+{
+  "name": "widgets-spa",
+  "version": "1.0.0",
+  "description": "This is a simple multi-page HTML site. The goal of this project is to take this hardcoded HTML site, and make it hit an API for showing/listing user and widget information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrsprice/widgets-spa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrsprice/widgets-spa/issues"
+  },
+  "homepage": "https://github.com/jrsprice/widgets-spa#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "connect-modrewrite": "^0.9.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {}
+}
