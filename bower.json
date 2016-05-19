@@ -1,0 +1,23 @@
+{
+  "name": "widgets-spa",
+  "description": "This is a simple multi-page HTML site. The goal of this project is to take this hardcoded HTML site, and make it hit an API for showing/listing user and widget information.",
+  "main": "index.js",
+  "authors": [
+    "jrsprice <jrsprice@github.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jrsprice/widgets-spa",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.0",
+    "angular": "^1.5.5"
+  }
+}
