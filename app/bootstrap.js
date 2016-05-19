@@ -1,12 +1,12 @@
 'use strict';
 
-var settings = {
-    apiBase: 'http://spa.tglrw.com:4000'
-};
-
 var app = angular.module('widgets.spa', ['ui.router']);
+
 (function(){
-    app.constant('SETTINGS', settings);
+    app.constant('SETTINGS', {
+        apiBase: 'http://spa.tglrw.com:4000'
+    });
+
     app.config(['$locationProvider', '$urlRouterProvider', '$httpProvider', 'SETTINGS', appConfig]);
     function appConfig($locationProvider, $urlRouterProvider, $httpProvider, SETTINGS) {
         $locationProvider.html5Mode(true);
